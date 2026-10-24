@@ -1,0 +1,20 @@
+{
+  "levels": [
+    {
+      "id": "A0", "title": "Foundations (A0)", "description": "Alphabet, sounds, greetings.",
+      "modules": ["Alphabet and pronunciation", "Greetings and introductions"]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "A0-L1",
+      "level": "A0",
+      "title": "Alphabet, Umlauts & ß",
+      "duration": 25,
+      "objectives": ["Recognize all 26 letters + ä ö ü ß", "Pronounce umlauts distinctly"],
+      "prerequisites": "None",
+      "html": "<div class='lesson-section'><h3>German explanation</h3><p class='de'>Das deutsche Alphabet hat 26 Buchstaben plus <strong>ä, ö, ü</strong> und <strong>ß</strong>.</p></div><div class='lesson-section'><h3>Urdu explanation</h3><p class='urdu'>جرمن زبان میں انگریزی کی طرح 26 حروفِ تہجی ہیں، لیکن تین املاوت (ä, ö, ü) اور ایک خاص حرف ß بھی ہے۔</p></div>",
+      "quizId": "A0-L1"
+    }
+  ]
+}
