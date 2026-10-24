@@ -1,0 +1,12 @@
+{
+  "words": [
+    {
+      "id": "w1", "word": "Haus", "article": "das", "english": "house", "urdu": "گھر",
+      "example": "Das Haus ist groß.", "exampleEn": "The house is big."
+    },
+    {
+      "id": "w2", "word": "Wasser", "article": "das", "english": "water", "urdu": "پانی",
+      "example": "Ich trinke Wasser.", "exampleEn": "I drink water."
+    }
+  ]
+}
