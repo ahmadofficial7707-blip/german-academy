@@ -1,0 +1,9 @@
+{
+  "name": "German B2 Academy",
+  "short_name": "DE-B2",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#1f4e79",
+  "icons": []
+}

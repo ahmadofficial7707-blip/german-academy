@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>German B2 Academy</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<meta name="theme-color" content="#1f4e79">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <div class="brand">🇩🇪 German B2 Academy</div>
+  <div class="topbar-actions">
+    <span class="level-pill" id="levelPill" title="Estimated level">A0</span>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+  </div>
+</header>
+
+<nav class="sidebar" id="sidebar" aria-label="Main navigation">
+  <ul>
+    <li><button data-view="dashboard" class="nav-link active">🏠 Dashboard</button></li>
+    <li><button data-view="roadmap"   class="nav-link">🗺️ Roadmap</button></li>
+    <li><button data-view="lesson"    class="nav-link">📘 Lesson</button></li>
+    <li><button data-view="vocab"     class="nav-link">🃏 Vocabulary</button></li>
+    <li><button data-view="quiz"      class="nav-link">📝 Quizzes</button></li>
+    <li><button data-view="mistakes"  class="nav-link">📓 Mistake Notebook</button></li>
+    <li><button data-view="resources" class="nav-link">🔗 Resources</button></li>
+    <li><button data-view="progress"  class="nav-link">📊 Progress</button></li>
+    <li><button data-view="settings"  class="nav-link">⚙️ Settings &amp; Backup</button></li>
+  </ul>
+</nav>
+
+<main id="main" class="content" tabindex="-1">
+  <noscript>This app requires JavaScript. Please enable it.</noscript>
+</main>
+
+<footer class="site-footer">
+  <p>Progress stored locally in your browser. Not an official CEFR certificate.</p>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
