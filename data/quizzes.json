@@ -1,0 +1,10 @@
+{
+  "A0-L1": [
+    {
+      "prompt": "What does the letter 'ß' sound like?",
+      "options": ["'sh'", "'s'", "'z'"],
+      "correct": 1,
+      "explain": "The letter ß is pronounced like a sharp 's'."
+    }
+  ]
+}
