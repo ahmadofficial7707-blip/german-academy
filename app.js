@@ -58,12 +58,14 @@ async function fetchJSON(name){
   return res.json();
 }
 async function loadAllData(){
-  [CURRICULUM, VOCAB, QUIZZES, RESOURCES] = await Promise.all([
-    fetchJSON("curriculum.json"),
-    fetchJSON("vocabulary.json"),
-    fetchJSON("quizzes.json"),
-    fetchJSON("resources.json"),
-  ]);
+  try {
+    CURRICULUM = await fetchJSON("curriculum.json");
+    VOCAB = await fetchJSON("vocabulary.json");
+    QUIZZES = await fetchJSON("quizzes.json");
+    RESOURCES = { resources: [] }; // We leave this empty for now so it doesn't crash
+  } catch (error) {
+    console.error("Error loading data files. Check your data folder.", error);
+  }
 }
 
 /* ---------- helpers ---------- */
